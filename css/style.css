@@ -1,0 +1,38 @@
+
+/* font-style  */
+.open-sans{
+    font-family: 'Open Sans', sans-serif;
+}
+.roboto-consensed{
+    font-family: 'Jost', sans-serif;
+}
+
+.bebas-neue{
+    font-family: 'Bebas Neue', cursive;
+}
+.cerebri{
+    font-family: 'Cerebri Sans', sans-serif;
+                                                
+}
+.montserrat{
+font-family: 'Montserrat', sans-serif;
+}
+
+
+/* creating  size  */
+.page {
+    background: var(--white);
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: var(--pageShadow);
+    background-color: #ffffff;
+}
+
+.page[size="page-size"] {
+    width: 8.5in;
+    height: 11in;
+    overflow: hidden;
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+}
