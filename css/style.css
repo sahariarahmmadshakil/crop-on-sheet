@@ -18,6 +18,9 @@
 font-family: 'Montserrat', sans-serif;
 }
 
+p{
+    color: #ffffff;
+}
 
 /* creating  size  */
 .page {
@@ -35,4 +38,59 @@ font-family: 'Montserrat', sans-serif;
     overflow: hidden;
     background-image: url('../images/background.jpg');
     background-size: cover;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.3in;
+    margin-left: 0.26in;
+    margin-right: 0.26in;
+}
+
+
+.wired-differently{
+    width: 0.63in;
+    height: 0.41in;
+}
+.social-media-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+.top-left-text{
+    color: #ffffff;
+    font-size: 10.64pt;
+    text-align-last: right;
+    margin-bottom: 0.05in;
+   font-family: 'Montserrat', sans-serif;
+}
+.icon-img{
+    height: 0.180in;
+    width: 0.180in;
+}
+.header-img-area{
+    margin: 0in 0.640in;
+    display: flex;
+    margin-top: 0.577in;
+    margin-top: 24px;
+}
+.top-img{
+    width: 326px;
+}
+.top-img >img{
+    width: 2.5in;
+    height: 3.08in;
+    margin-left: 70px;
+    top: -70px;
+    position: relative;
+}
+.top-left-area{
+    margin-left: 49px;    
+    font-size: 8.19pt;
+}
+.Doug-Badertscher-speech{
+    text-align: right;
+    font-size: 8.19pt;
 }
