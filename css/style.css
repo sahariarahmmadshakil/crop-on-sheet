@@ -1,26 +1,22 @@
-
 /* font-style  */
-.open-sans{
-    font-family: 'Open Sans', sans-serif;
-}
-.roboto-consensed{
-    font-family: 'Jost', sans-serif;
+
+.cerebri {
+    font-family: 'Cerebri Sans', sans-serif;
+
 }
 
-.bebas-neue{
-    font-family: 'Bebas Neue', cursive;
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
 }
-.cerebri{
-    font-family: 'Cerebri Sans', sans-serif;
-                                                
-}
-.montserrat{
-font-family: 'Montserrat', sans-serif;
-}
-.oswald{
+
+.oswald {
     font-family: 'Oswald', sans-serif;
 }
-p{
+.poppins{
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
     color: #ffffff;
 }
 
@@ -38,11 +34,11 @@ p{
     width: 8.5in;
     height: 11in;
     overflow: hidden;
-    background-image: url('../images/background.jpg');
+    background-image: url('../images/bg.jpg');
     background-size: cover;
 }
 
-.header{
+.header {
     display: flex;
     justify-content: space-between;
     margin-top: 0.3in;
@@ -51,81 +47,155 @@ p{
 }
 
 
-.wired-differently{
+.wired-differently {
     width: 0.63in;
     height: 0.41in;
 }
-.social-media-icon{
+
+.social-media-icon {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
 
 }
-.top-left-text{
+
+.top-left-text {
     color: #ffffff;
     font-size: 10.64pt;
     text-align-last: right;
     margin-bottom: 0.05in;
 }
-.icon-img{
+
+.icon-img {
     height: 0.180in;
     width: 0.180in;
 }
-.header-img-area{
+
+.header-img-area {
     margin: 0in 0.640in;
     display: flex;
     margin-top: 0.577in;
     margin-top: 24px;
 }
-.top-img{
+
+.top-img {
     width: 297px;
 }
-.top-img >img{
+
+.top-img>img {
     width: 2.6in;
     height: 3.2in;
     margin-left: 50px;
     top: -105px;
     position: relative;
 }
-.top-left-area{
-    margin-left: 49px;    
+
+.top-left-area {
+    margin-left: 49px;
     font-size: 8.19pt;
 }
-.Doug-Badertscher-speech{
+
+.Doug-Badertscher-speech {
     text-align: right;
     font-size: 8.19pt;
 }
-.img-logo{    
+
+.img-logo {
     text-align: center;
-   
+
 }
-.img-logo >img{
-    height: 2.5in;
+
+.img-logo>img {
+    height: 2.4in;
     width: 5.5in;
     margin-left: 25px;
     top: -235px;
     position: relative;
-    
+
 }
 
-.btn-area{
+.btn-area {
     text-align: center;
-    top: -176.5px;
+    top: -166.5px;
     left: 10px;
     position: relative;
 }
-.btn-area>h3{
-font-size: 11.48px;
-margin-left: 10px;
+
+.btn-area>h3 {
+    font-size: 11.48px;
+    margin-left: 10px;
 
 }
-.btn-area>h3>a{
-text-decoration: none;
-color: #ffffff;
-padding: 5px 20px;
-letter-spacing: 2.5px;
+
+.btn-area>h3>a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 2px 17px;
+    letter-spacing: 2.5px;
 }
-.btn-area>p{
-font-size: 10px;
-line-height: 1.5;
+
+.btn-area>p {
+    font-size: 8px;
+    line-height: 16px;
+    letter-spacing: 1.5px;
+}
+
+.highlights-area {
+    margin-left: 0.380in;
+    position: relative;
+    top: -147px;
+}
+
+.highlight-heading {
+    font-size: 6.33pt;
+    color: #000000;
+}
+
+.highlight-main {
+    font-size: 9px;
+    margin-left: 9px;
+}
+
+.highlight-parent {
+    margin-top: 17px;
+}
+
+.highlight-items {
+    font-size: 5px;
+    margin-left: 20px;
+    line-height: 11px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.round-img-area {
+    display: flex;
+    position: relative;
+    top: -140px;
+
+}
+.round-image-left{
+    margin-left: 0.31in;
+}
+.about-todd-title{
+    font-size: 18pt;
+}
+
+.round-images-parent {
+
+    margin-left: -25px;
+}
+
+.round-image-child>img {
+    width: 3.7in;
+    margin-left: 35px;
+}
+.purposefull-text{
+    margin-left: 0.5in;
+    text-align: center;
+    margin-top: 75px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -175px;
 }
