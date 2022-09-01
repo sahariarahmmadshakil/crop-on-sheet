@@ -82,6 +82,9 @@ p {
 .top-right-area{
     margin-top: 20px;
 }
+.top-right-area >p{
+    font-size: 8.14pt;
+}
 .top-img {
     width: 297px;
 }
@@ -101,9 +104,9 @@ p {
 
 .Doug-Badertscher-speech {
     text-align: right;
-    font-size: 8.19pt;
+    font-size: 8.05pt;
     letter-spacing: 0.5px;
-    line-height: 15px;
+    line-height: 14px;
 }
 
 .img-logo {
